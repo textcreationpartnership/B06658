@@ -1,0 +1,917 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A vvinters tale, told to such as have wit to understand it, and worth to reward it. / Published by B.S., gent., to seek a parallell.</title>
+            <author>B. S., Gent.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1644</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 30 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B06658</idno>
+            <idno type="STC">Wing W3091</idno>
+            <idno type="STC">ESTC R186759</idno>
+            <idno type="EEBO-CITATION">52529119</idno>
+            <idno type="OCLC">ocm 52529119</idno>
+            <idno type="VID">179277</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B06658)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 179277)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2782:1)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A vvinters tale, told to such as have wit to understand it, and worth to reward it. / Published by B.S., gent., to seek a parallell.</title>
+                  <author>B. S., Gent.</author>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London? :</pubPlace>
+                  <date>1644?]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Caption title.</note>
+                  <note>Initial letter.</note>
+                  <note>Imprint suggested by Wing.</note>
+                  <note>Reproduction of the original in the University of Texas, Austin Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Political poetry, English --  17th century.</term>
+               <term>Great Britain --  History --  Civil War, 1642-1649 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-08</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-11</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2010-11</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="text">
+            <pb facs="tcp:179277:1"/>
+            <pb facs="tcp:179277:1"/>
+            <head>A Winters Tale, TOLD To ſuch as have WIT to underſtand it, And WORTH to Reward it.</head>
+            <head type="sub">Publiſhed by <hi>B. S.</hi> Gent. To ſeek a Parallell.</head>
+            <lg n="1">
+               <head>1.</head>
+               <l>
+                  <seg rend="decorInit">T</seg>Here whilom was a ſeemly Buxom paire,</l>
+               <l>That wedded were with full and free conſent;</l>
+               <l>The Maiden to her Father was Co-heire;</l>
+               <l>To love each other deare was their intent.</l>
+               <l>And ſo they did, as ever yet did any,</l>
+               <l>Shee lik'd him beſt, he none ſo well as <hi>Nanny.</hi>
+               </l>
+            </lg>
+            <lg n="2">
+               <head>2.</head>
+               <l>But fickle Fortune which doth often croſſe,</l>
+               <l>As theſe ſhe did, with malice and deſpite,</l>
+               <l>By Law-ſuits were they put unto ſuch loſſe, <note place="margin">☜</note>
+               </l>
+               <l>As made them leave their Native Countrey quite,</l>
+               <l>And tack about to ſeek ſome other place,</l>
+               <l>Though homely clad, to live without diſgrace.</l>
+            </lg>
+            <lg n="3">
+               <head>3.</head>
+               <l>And ſo they took their way to <hi>Cheſter</hi> Strond,</l>
+               <l>With happy Gale, and Veſſell that was ſtout,</l>
+               <l>Soone did arrive upon the <hi>Iriſh</hi> Lond,</l>
+               <l>Where they their buſineſſe quickly brought about:</l>
+               <l>And haply there they got a Habitation,</l>
+               <l>For profit good, and pleaſant ſituation.</l>
+            </lg>
+            <pb facs="tcp:179277:2"/>
+            <lg n="4">
+               <head>4.</head>
+               <l>There lived they in long and happy bliſſe,</l>
+               <l>Sweet Children many 'twixt them were begot,</l>
+               <l>If Houſhold jarres, or ought were done amiſſe,</l>
+               <l>When once debated, long it laſted not.</l>
+               <l>Such Children, Wife, ſuch Husband as was he,</l>
+               <l>You could in other places hardly ſee.</l>
+            </lg>
+            <lg n="5">
+               <head>5.</head>
+               <l>They planted well, and Houſes builded ſtore,</l>
+               <l>
+                  <note place="margin">☞</note> A Church obtained in a wilder place</l>
+               <l>Then any that adventur'd heretofore,</l>
+               <l>Which was deſcended of the Engliſh Race:</l>
+               <l>You could not meet with folke of better quality,</l>
+               <l>For Converſation, and for Hoſpitality.</l>
+            </lg>
+            <lg n="6">
+               <head>6.</head>
+               <l>They did extend their Pitty to the Poore,</l>
+               <l>Inſtead of Surgeon, often dreſt their wounds;</l>
+               <l>Relieved ſuch as begg'd from doore to doore,</l>
+               <l>And others that were needy in their bounds:</l>
+               <l>And ſuch as dy'd, not having cov'ring meet,</l>
+               <l>They often furniſh'd with a winding-ſheet.</l>
+            </lg>
+            <lg n="7">
+               <head>7.</head>
+               <l>Before they came into this uncouth place,</l>
+               <l>
+                  <note place="margin">☞</note> No Innes were built to entertaine a ſtranger,</l>
+               <l>But ſuch as came were forc'd to ride apace,</l>
+               <l>Or ſtay much ſhort to keep from further danger:</l>
+               <l>To Travellers, that oft was ill beſtead,</l>
+               <l>They gave a courteous welcome, meat and bed.</l>
+            </lg>
+            <lg n="8">
+               <head>8.</head>
+               <l>Thus liv'd this Couple both devout and zealous,</l>
+               <l>Brought up their Children in the feare of God,</l>
+               <l>Nor were they of each other ever jealous,</l>
+               <l>Their Servants kept from gadding much abroad:</l>
+               <l>Nor were they pinch'd, that they ſhould need to ſteale;</l>
+               <l>Thus order'd was their little Common-weale.</l>
+            </lg>
+            <pb facs="tcp:179277:2"/>
+            <lg n="9">
+               <head>9.</head>
+               <l>When he about affaires abroad did ride,</l>
+               <l>She neither kept cloſe houſe, or open doore,</l>
+               <l>The goods in Paſture wiſely ſhee did guide,</l>
+               <l>Of Houſhold five and twenty, or ſome more.</l>
+               <l>Much joy they had, of ſorrow ſeldome taſted,</l>
+               <l>Each yeare encreas'd, when many others waſted.</l>
+            </lg>
+            <lg n="10">
+               <head>10.</head>
+               <l>As one time he from chiefeſt City came,</l>
+               <l>Which <hi>Dublin</hi> Hight ſo famous and renown'd,</l>
+               <l>Quoth he, deare Love me thinks they are too blame,</l>
+               <l>Which planted have not yon ſame peece of ground,</l>
+               <l>That lies ſo right from <hi>Dublin</hi> for a Stage, <note place="margin">☜</note>
+               </l>
+               <l>And yet hath no receipt for Man, or Page.</l>
+            </lg>
+            <lg n="11">
+               <head>11.</head>
+               <l>God hath ſo bleſſed this our undertaking,</l>
+               <l>In ſending us Proſperity and health,</l>
+               <l>That while my Limbes are good, my Spirits waking,</l>
+               <l>Ile ſtudy how to ſerve the Common-wealth:</l>
+               <l>That much good may be done there's no deny all,</l>
+               <l>If you conſent wee'll put it to the tryall.</l>
+            </lg>
+            <lg n="12">
+               <head>12.</head>
+               <l>Shee gentle ſoule, who never was averſe</l>
+               <l>To ought that he inclin'd in word or deed,</l>
+               <l>Sweet love ſhe ſaid, ſo well you ken your Verſe</l>
+               <l>In Field, and Town, you little conſell need.</l>
+               <l>This is your love exceptions to prevent,</l>
+               <l>'Tis kindly mov'd, as kindly I conſent.</l>
+            </lg>
+            <lg n="13">
+               <head>13.</head>
+               <l>And thus he went unto the Lord <hi>Dunſany,</hi>
+               </l>
+               <l>The rightfull owner of the fore ſaid place,</l>
+               <l>A Noble Lord, by Birth as good as any;</l>
+               <l>His gentle Lady came of Engliſh race.</l>
+               <l>In briefe to tell ere paſt was much debate, <note place="margin">☜</note>
+               </l>
+               <l>They full agreed on Covenants and the rate.</l>
+            </lg>
+            <pb facs="tcp:179277:3"/>
+            <lg n="14">
+               <head>14.</head>
+               <l>Some Chapmen thought he did not well adviſe,</l>
+               <l>To give ſo great a price for naked Lands;</l>
+               <l>But ſuch I meane as were not over-wiſe,</l>
+               <l>Or ſuch as ſought to gain't in their owne hands:</l>
+               <l>
+                  <note place="margin">☞</note> Or ſuch as had no right diſcerning ſence,</l>
+               <l>To know Commerce will build both houſe and fence.</l>
+            </lg>
+            <lg n="15">
+               <head>15.</head>
+               <l>For being ſeated in ſo great a Road,</l>
+               <l>And from the City ſo compleat a Stage,</l>
+               <l>When ſuch as journey<g ref="char:punc">▪</g> wanting there abode,</l>
+               <l>Muſt further ride, it booteth not to rage,</l>
+               <l>As many moe have done as well as I,</l>
+               <l>When as we were benighted, wet and dry.</l>
+            </lg>
+            <lg n="16">
+               <head>16.</head>
+               <l>Our Cloathes were wet, and we were dry for drinke:</l>
+               <l>Becauſe I will not hold you in a Riddle,</l>
+               <l>Amiſſe of me I hope you will not thinke,</l>
+               <l>If you may there embrace your Hoſteſſe middle;</l>
+               <l>As ſince you mighr, and more you might not doe,</l>
+               <l>If you meane ill, ſhe thought no harme to you.</l>
+            </lg>
+            <lg n="17">
+               <head>17.</head>
+               <l>For in that place he builded Hoſt'ries twaine,</l>
+               <l>And put therein two very honeſt couple,</l>
+               <l>Where Gueſts of all ſorts came with might and maine,</l>
+               <l>For unto ſuch they were exceeding ſupple;</l>
+               <l>
+                  <note place="margin">☞</note> And all things came ſo fitly to their hands,</l>
+               <l>As ſhortly did improve both Houſe and Lands.</l>
+            </lg>
+            <lg n="18">
+               <head>18.</head>
+               <l>Lords Rent did trebble what it was before,</l>
+               <l>New Tenants liv'd in farre more gentile faſhion:</l>
+               <l>The undertaker totted up his ſcore;</l>
+               <l>And here begun this pretty new Plantation:</l>
+               <l>Then thus advanc'd, the Bargaine was not derre</l>
+               <l>
+                  <note place="margin">☞</note> From ſixty to three hundred pounds a yeare.</l>
+            </lg>
+            <pb facs="tcp:179277:3"/>
+            <lg n="19">
+               <head>19.</head>
+               <l>If you deſire to know the reaſon why</l>
+               <l>The Lands of <hi>Ireland</hi> are ſo quickly gainfull,</l>
+               <l>It is to ſuch as have diſcerning eye,</l>
+               <l>And to their proper uſe to fit are painfull.</l>
+               <l>Thus did this loving couple proſper well,</l>
+               <l>Till Gods wrath kindled fierce, by Rebels, fell. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <lg n="20">
+               <head>20.</head>
+               <l>But not on them alone, their hap was better</l>
+               <l>Then many thouſands under that dire croſſe,</l>
+               <l>For which to God above they are ſtill debtor,</l>
+               <l>Their lives were ſav'd, though goods were put to loſſe.</l>
+               <l>They were i'th, North about their houſhold care,</l>
+               <l>And were ſurprized ere they were aware.</l>
+            </lg>
+            <lg n="21">
+               <head>21.</head>
+               <l>For there it was they made their firſt Plantation,</l>
+               <l>With mutuall comfort, and all good ſucceſſe.</l>
+               <l>And there it was this heavy viſitation</l>
+               <l>O're-whelm'd that Countrey people more and leſſe.</l>
+               <l>Let any judge what cauſe they had to feare,</l>
+               <l>Eleven moneths full (in dread) they Priſoners were. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <lg n="22">
+               <head>22.</head>
+               <l>And after that they freedome had to paſſe,</l>
+               <l>Which was great comfort to afflicted minde;</l>
+               <l>Yet ſad and heavy were the termes a laſſe,</l>
+               <l>Their eldeſt ſonne was forc'd to ſtay behind. <note place="margin">☜</note>
+               </l>
+               <l>Quoth they, to you our Countrey is well knowne,</l>
+               <l>Thus farre we yeeld, for favours you have ſhowne.</l>
+            </lg>
+            <lg n="23">
+               <head>23.</head>
+               <l>But yet your skill in this our Iriſh warre,</l>
+               <l>Much augmented by your long reſiding,</l>
+               <l>If you be ſent we ſhall be very farre</l>
+               <l>To thinke that here we ſhall have ſafe abiding;</l>
+               <l>Therefore him we keep, that we may be more ſure</l>
+               <l>T'exchange for ours, or be our ſelves ſecure. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <pb facs="tcp:179277:4"/>
+            <lg n="24">
+               <head>24.</head>
+               <l>I would our State were pleaſed ſo to thinke,</l>
+               <l>That ſuch as left their Lands and Goods behinde,</l>
+               <l>Will not ſo eaſily be induc'd to winke,</l>
+               <l>As ſuch as know but little of their minde:</l>
+               <l>
+                  <note place="margin">☞</note> For who ſo fit as thoſe have double band,</l>
+               <l>T' adviſe and fight with double heart and hand.</l>
+            </lg>
+            <lg n="25">
+               <head>25.</head>
+               <l>Thus on they march with ſad and mournful cheare,</l>
+               <l>To leave their eldeſt ſonne in dolefull plight;</l>
+               <l>For Lands and Goods they never took ſuch feare</l>
+               <l>As that to him they would doe lit le right.</l>
+               <l>A youth ſo ſweet of nature, and ſo kinde,</l>
+               <l>One death it was to leave ſuch ſonne behinde.</l>
+            </lg>
+            <lg n="26">
+               <head>26.</head>
+               <l>Then came they to an Engliſh Garriſon,</l>
+               <l>
+                  <hi>Droghdagh</hi> that ſeated was upon the Maine,</l>
+               <l>The Father ſad beyond all compariſon,</l>
+               <l>To <hi>Dublin</hi> went, ſoone to returne againe,</l>
+               <l>With hope to bring reliefe, ſad hearts to cheare</l>
+               <l>
+                  <note place="margin">☞</note> Of Wife and Children, almoſt dead with feare.</l>
+            </lg>
+            <lg n="27">
+               <head>27.</head>
+               <l>Thus came he to that old and famous City,</l>
+               <l>Where he had left two daughters for their breeding,</l>
+               <l>One whereof, O pitty, greateſt pitty,</l>
+               <l>Was dead, which ſet his heart-ſtrings freſh a bleeding:</l>
+               <l>And ſure the feare ſhe had of us below,</l>
+               <l>
+                  <note place="margin">☞</note> Did cauſe her death, which added to our woe.</l>
+            </lg>
+            <lg n="28">
+               <head>28.</head>
+               <l>A gracious childe, withall a proper Laſſe,</l>
+               <l>No doubt ſhe weareth now a Crowne of glory;</l>
+               <l>And ſince our God, which all things bring to paſſe</l>
+               <l>Was pleaſed, then ought we to be ſorry?</l>
+               <l>No happy Maid that is before us gone,</l>
+               <l>When others live with cauſe of further moane.</l>
+            </lg>
+            <pb facs="tcp:179277:4"/>
+            <lg n="29">
+               <head>29.</head>
+               <l>He found their eldeſt Daughter plung'd in ſorrow,</l>
+               <l>For Siſters death, and their impriſonment;</l>
+               <l>And had he not come early the next morrow,</l>
+               <l>Which gave ſome comfort to her languiſhment,</l>
+               <l>She might perchance have found ſame way to Bliſſe,</l>
+               <l>But now ſhe lives to ſee more things amiſſe.</l>
+            </lg>
+            <lg n="30">
+               <head>30.</head>
+               <l>And long may live to give our Maker glory.</l>
+               <l>A meeker ſoule lives not upon this earth:</l>
+               <l>But now I muſt returne unto my ſtory;</l>
+               <l>Our lives were dated long before our birth.</l>
+               <l>Then let us live, ſo as we need not care</l>
+               <l>For Hell, or Death, that will not Princes ſpare.</l>
+            </lg>
+            <lg n="31">
+               <head>31.</head>
+               <l>And now he went unto the Counſell Table,</l>
+               <l>To let them know what he beneath obſerved,</l>
+               <l>And did relate the truth as he was able,</l>
+               <l>For otherwiſe he had not well deſerved.</l>
+               <l>The Board did ſeeme to pitty much his caſe,</l>
+               <l>And mov'd that noble Lord to give him place.</l>
+            </lg>
+            <lg n="32">
+               <head>32.</head>
+               <l>Who bravely then commanded there in Chiefe,</l>
+               <l>
+                  <note place="margin">Lord Marquis of <hi>Ormond.</hi>
+                  </note>And worthy was as any I have knowne,</l>
+               <l>(For I doe love to tell my minde in briefe)</l>
+               <l>Be what he will in field or yet in Towne:</l>
+               <l>And he brave Lord himſelfe was nothing ſlack</l>
+               <l>To give him Horſe and Armes, to cloath his back.</l>
+            </lg>
+            <lg n="33">
+               <head>33.</head>
+               <l>But now the Regiments were all come over,</l>
+               <l>That hard it was an empty place to finde</l>
+               <l>A Souldier he, his ſtile I will not cover,;</l>
+               <l>That there and elſe where often had been train'd.</l>
+               <l>But ſo long had they kept him cloſe in Mew <note place="margin">☜</note>
+               </l>
+               <l>Others got the ſtart, which then but little knew.</l>
+            </lg>
+            <pb facs="tcp:179277:5"/>
+            <lg n="34">
+               <head>34.</head>
+               <l>For that good turne his Maſters did below,</l>
+               <l>
+                  <note place="margin">☞</note> Who did intend that he ſhould be their Agent,</l>
+               <l>They kept him that he might not ſtrike a blow;</l>
+               <l>Nor yet get out for to ſeek imployment.</l>
+               <l>But now this gentle Lord full of remorſe,</l>
+               <l>Did ſtudy how to raiſe him Troop of Horſe.</l>
+            </lg>
+            <lg n="35">
+               <head>35.</head>
+               <l>He in the meane time to <hi>Droghdagh</hi> was ſent</l>
+               <l>T' old Sir <hi>Henry Tychborne,</hi> That gallant Knight,</l>
+               <l>Prisoners to releaſe was the full intent,</l>
+               <l>Left ſtill behinde that would come if they might.</l>
+               <l>This Meſſage was full glad in this reſpect,</l>
+               <l>His ſonne amongſt the reſt he did expect.</l>
+            </lg>
+            <lg n="36">
+               <head>36.</head>
+               <l>But ere he could adventure to <hi>Droghdagh,</hi>
+               </l>
+               <l>He ſtaid a night at Garriſon <hi>Corduff,</hi>
+               </l>
+               <l>And afterward he had no cauſe to laugh,</l>
+               <l>There fell out ſuch ill-favour'd peece of ſtuffe.</l>
+               <l>Some few Dragoones he had unto his Guard,</l>
+               <l>That led him wrong, and thus with him it far'd,</l>
+            </lg>
+            <lg n="37">
+               <head>37.</head>
+               <l>A Thicket was the way that they ſhould ride,</l>
+               <l>He lik'd it not, it ſeem'd a doubtfull place;</l>
+               <l>Goe ſee quoth he if Rebells doe them hide,</l>
+               <l>To give annoyance to us as we paſſe.</l>
+               <l>He ſent two men to ſee what might appeare,</l>
+               <l>Who brought him preſent word the Coaſt was cleare.</l>
+            </lg>
+            <lg n="38">
+               <head>38.</head>
+               <l>It prov'd not ſo; for as they marched by,</l>
+               <l>They heard a clamour, and a ſuddaine ruſh,</l>
+               <l>And to their coſt they quickly did eſpy</l>
+               <l>
+                  <note place="margin">☞</note> Rebells heads peep like Snakes out of a buſh.</l>
+               <l>And then began the buſineſſe very hot,</l>
+               <l>They pour'd on him alone full thirty ſhot.</l>
+            </lg>
+            <pb facs="tcp:179277:5"/>
+            <lg n="39">
+               <head>39.</head>
+               <l>Himſelfe, his Cloak, his Saddle, and his Horſe,</l>
+               <l>Upon Account had holes to that ſame number,</l>
+               <l>Which ſuddainly was done without remorſe,</l>
+               <l>And how hee ſcap'd with life it was a wonder.</l>
+               <l>They fear'd another Party of our men,</l>
+               <l>Which made them back retire unto their Den.</l>
+            </lg>
+            <lg n="40">
+               <head>40.</head>
+               <l>His Horſe was kill'd, one of his men ſtarke dead;</l>
+               <l>Of theirs two they kill'd, Pris'ner was the third:</l>
+               <l>Sore wounded he went with an aking head;</l>
+               <l>A greater ſcape (it was thy mercy Lord)</l>
+               <l>Did never fall to any ſinfull wight:</l>
+               <l>Back they returne in ſad and woefull plight.</l>
+            </lg>
+            <lg n="41">
+               <head>41.</head>
+               <l>And then appear'd he ſhot was with ſix Bullets, <note place="margin">☜</note>
+               </l>
+               <l>A homely place, God knowes, fell to his Harbour,</l>
+               <l>He was not fed with over many Pullets,</l>
+               <l>To make him trim he ſtood no need of Barber:</l>
+               <l>A Surgeon was the man he wanted moſt,</l>
+               <l>And him to fetch one rid away in Poſt.</l>
+            </lg>
+            <lg n="42">
+               <head>42.</head>
+               <l>Next day there came a nimble Leech, <hi>James Moore,</hi>
+               </l>
+               <l>Was ſent to him by honeſt <hi>Thomas Howard,</hi>
+               </l>
+               <l>(Who gave him money in his hand before)</l>
+               <l>Him to requite he never will be froward.</l>
+               <l>His wounds were bound, &amp; ſearch'd with all good ſpeed,</l>
+               <l>No veine left open any more to bleed.</l>
+            </lg>
+            <lg n="43">
+               <head>43.</head>
+               <l>Ill newes goes farre, and ſoo did theſe of him,</l>
+               <l>His Wife heard he was dead, or at the point,</l>
+               <l>She makes all haſte, ſtaid not to make her trim.</l>
+               <l>You need not doubt ſhe trembled every joint:</l>
+               <l>A Convoy fitly ſerv'd the way to croſſe,</l>
+               <l>Leaves Children foure behinde, to mourne their loſſe.</l>
+            </lg>
+            <pb facs="tcp:179277:6"/>
+            <lg n="44">
+               <head>44.</head>
+               <l>Full wan ſhe look'd to finde him in that caſe;</l>
+               <l>Take cheere, quoth he, I hope all will be weele,</l>
+               <l>She ſobb'd, and ſigh'd, and wip'd her blubred face,</l>
+               <l>And ſoftly then ſhe downe by him did kneele:</l>
+               <l>Her comming to him did ſuch comfort brings,</l>
+               <l>He thought himſelfe as happy as a King.</l>
+            </lg>
+            <lg n="45">
+               <head>45.</head>
+               <l>For her kinde ſoule more gentle then a Willow,</l>
+               <l>Lord how he griev'd that had not welcome fit,</l>
+               <l>
+                  <note place="margin">☞</note> Hard Boards her Bed, a Saddle was her Pillow,</l>
+               <l>Which put him quite beſides his little wit.</l>
+               <l>Deare Love, ſaid ſhe, no harme can me betide,</l>
+               <l>No ſtone is hard, ſo I lye by thy ſide.</l>
+            </lg>
+            <lg n="46">
+               <head>46.</head>
+               <l>The place did onely yeeld his hurts a Pallat,</l>
+               <l>And that likewiſe upon the Boards did lye,</l>
+               <l>There's many begging all day with a Wallat,</l>
+               <l>That when night comes, to lodge ſo will be ſhye:</l>
+               <l>The times were ſuch no better could be had,</l>
+               <l>Then they that cauſe ſuch times are worſe then mad.</l>
+            </lg>
+            <lg n="47">
+               <head>47.</head>
+               <l>No want of will in People or in Souldier,</l>
+               <l>Of what they had they gave the very beſt;</l>
+               <l>Not any place wherein they might be bolder,</l>
+               <l>His thanks he paies, God quite them for the reſt.</l>
+               <l>In few dayes ſpace there was good hope of life,</l>
+               <l>Prais'd be his Name that ſent him ſuch a wife.</l>
+            </lg>
+            <lg n="48">
+               <head>48.</head>
+               <l>In the Surgeons abſence ſhe could play her part,</l>
+               <l>Few women might with her compare for skill,</l>
+               <l>T' helpe ſuch as need ſhe alwayes had the heart,</l>
+               <l>Now ſhe acted lively both in deed and will.</l>
+               <l>In one moneths ſpace to <hi>Dublin</hi> he was brought,</l>
+               <l>Such ſuddaine change could hardly have been thought.</l>
+            </lg>
+            <pb facs="tcp:179277:6"/>
+            <lg n="49">
+               <head>49.</head>
+               <l>A change ſaid I? Now commeth change on change,</l>
+               <l>For here this bleſſed Creature did contract</l>
+               <l>A Flux and Ague, which held her very ſtrange, <note place="margin">☜</note>
+               </l>
+               <l>His hurts were mending, but his heart was rack't,</l>
+               <l>To thinke that ſhe ſhould come his life to ſave,</l>
+               <l>And bring her ſelfe to ſuch untimely grave.</l>
+            </lg>
+            <lg n="50">
+               <head>50.</head>
+               <l>Now was ſhe ſometimes better, ſometimes worſe;</l>
+               <l>Their Children as y'hare heard were left behinde,</l>
+               <l>Them to recover they did make a Purſe,</l>
+               <l>To give ſome eaſe unto their troubled minde.</l>
+               <l>Their ſecond Daughter, with two pretty Boyes,</l>
+               <l>Came with ſuch news as drencht their new-come joyer</l>
+            </lg>
+            <lg n="51">
+               <head>51.</head>
+               <l>For when theſe three appear'd each after other,</l>
+               <l>He miſt a fourth; Lord how his heart did dread,</l>
+               <l>Wet eyes he ſaw in ſiſter and in brother:</l>
+               <l>Nay then, quoth he, our little Girle is dead: <note place="margin">☜</note>
+               </l>
+               <l>O happy ſhe, then ſaid her Mother deare,</l>
+               <l>For her we need no longer ſtand in feare.</l>
+            </lg>
+            <lg n="52">
+               <head>52.</head>
+               <l>What though ſhe was our Darling young and tender,</l>
+               <l>As ſweet a Childe as ever woman bare,</l>
+               <l>To ſend this wicked world her wit was ſlender,</l>
+               <l>Our gracious God of her hath taken care:</l>
+               <l>This ought we not to reckon is a loſſe,</l>
+               <l>For ſurely this a Bleſſing is, and not a Croſſe.</l>
+            </lg>
+            <lg n="53">
+               <head>53.</head>
+               <l>This I diſcerne, although I faint and languiſh,</l>
+               <l>Through glimpſe of God Almighties giving,</l>
+               <l>Such as remains ſhall have both woe and anguiſh,</l>
+               <l>The dead are better farre then are the living.</l>
+               <l>God bleſſe you all that harken to my ſong, <note place="margin">☜</note>
+               </l>
+               <l>Ere you be queat it will be very long</l>
+            </lg>
+            <pb facs="tcp:179277:7"/>
+            <lg n="54">
+               <head>54.</head>
+               <l>For ſuch a curſed Rabble upſtart Crew,</l>
+               <l>The Serpent hath infus'd with deadly hate,</l>
+               <l>They never will leave off to worke your Rue.</l>
+               <l>
+                  <note place="margin">☞</note> Till they have quite undone both Church and State.</l>
+               <l>They liſtned to her lore, ſate by and cry'd;</l>
+               <l>Shee ſigh'd, and turn'd about, and ſhortly dy'd.</l>
+            </lg>
+            <lg n="55">
+               <head>55.</head>
+               <l>Now break heart, if thou art not made of Flint,</l>
+               <l>I heare thee crack, and eyes with Rivers ſwell,</l>
+               <l>No wounds, or loſſe of goods gave ſuch a dint,</l>
+               <l>Or earthly thing that ever him befell.</l>
+               <l>What further hope doth now for him remaine,</l>
+               <l>The World to him a Chaos is againe.</l>
+            </lg>
+            <lg n="56">
+               <head>56.</head>
+               <l>Yet Children pledges deare of mothers love,</l>
+               <l>He needs muſt joyne with her in Propheſie;</l>
+               <l>He ſees ſuch direfull threatnings from above,</l>
+               <l>Through Satans craft and mans iniquity,</l>
+               <l>
+                  <note place="margin">☞</note> That till our injur'd King be once reſtor'd,</l>
+               <l>Each gentle wight muſt ſuffer, Knight, and Lord.</l>
+            </lg>
+            <lg n="57">
+               <head>57.</head>
+               <l>Thus did poore Father, and poore Children foure,</l>
+               <l>Bewaile, lament, and mourne each others loſſe;</l>
+               <l>Their elder Brother, as you heard before,</l>
+               <l>Was dolefull pris'ner ſtill, O heavy Croſſe:</l>
+               <l>Now all the world began to run on Rucks,</l>
+               <l>Deep ſorrow brought deep Fever and a Flux.</l>
+            </lg>
+            <lg n="58">
+               <head>58.</head>
+               <l>Beſides, a wound that was not rightly cur'd,</l>
+               <l>
+                  <note place="margin">☞</note> Broke out agen, and wrought him mickle teene:</l>
+               <l>O Lord, he hath not yet enough endur'd,</l>
+               <l>Thy wonders great muſt more of him be ſeen:</l>
+               <l>Sad children cry, to ſee him in this taking,</l>
+               <l>Folk think him dead, his Coffin is a making.</l>
+            </lg>
+            <pb facs="tcp:179277:7"/>
+            <lg n="59">
+               <head>59.</head>
+               <l>And now behold the great Almighties power,</l>
+               <l>Comes guſhing from the foreſaid hollow wound <note place="margin">☜</note>
+               </l>
+               <l>Impoſtumated ſtuffe a Quart, or more,</l>
+               <l>As he lay ſenceleſſe groveling on the ground:</l>
+               <l>Then ſhortly after he was pretty able,</l>
+               <l>About his Sonne to wait at Counſell Table.</l>
+            </lg>
+            <lg n="60">
+               <head>60.</head>
+               <l>And that brought on his eldeſt Sonnes releaſe,</l>
+               <l>With earneſt ſuit he ſhortly did obtaine,</l>
+               <l>A way to worke the weary young mans peace,</l>
+               <l>By ſending in exchange of Pris'ners twaine:</l>
+               <l>And even then a noble <note n="*" place="margin">
+                     <hi>Sir</hi> Will. Cole.</note> friend below,</l>
+               <l>Had late redeem'd him from his thrall and woe.</l>
+            </lg>
+            <lg n="61">
+               <head>61.</head>
+               <l>Thus once more were his Children in his ſight,</l>
+               <l>Eleven once, now five the number left:</l>
+               <l>And thanks be giv'n to that good God of might,</l>
+               <l>Which brought ſuch eaſe to heart full deeply cleft.</l>
+               <l>But then they had ſuch want of livelyhood, <note place="margin">☜</note>
+               </l>
+               <l>His Sonnes to <hi>England</hi> went to ſeek their food.</l>
+            </lg>
+            <lg n="62">
+               <head>62.</head>
+               <l>For now it was the time of a Ceſſation,</l>
+               <l>Long ſought by th'Iriſh, and at length accorded,</l>
+               <l>Which brought to ſome a very ſhort Collation,</l>
+               <l>Amongſt the reſt it nought to them afforded.</l>
+               <l>His Lieutenant he ſent with Children three,</l>
+               <l>His Daughters two remain'd,<note n="*" place="margin">Iriſh phraſe,</note> poore <hi>Cramacrees.</hi>
+               </l>
+            </lg>
+            <lg n="63">
+               <head>63.</head>
+               <l>For he was then deſign'd to carry o're</l>
+               <l>Some men to <hi>England,</hi> as it was projected,</l>
+               <l>Which made him ſend his people ſo before,</l>
+               <l>In hope that there they might have been protected.</l>
+               <l>But once more as they paſt upon the Seas, <note place="margin">☜</note>
+               </l>
+               <l>They Pris'ners were againe at little eaſe.</l>
+            </lg>
+            <pb facs="tcp:179277:8"/>
+            <lg n="64">
+               <head>64.</head>
+               <l>And he himſelfe now ready was for fare.</l>
+               <l>With Men and Armes to follow on the chaſe;</l>
+               <l>But Ships within our Harbour brought new care,</l>
+               <l>And blockt us up for running further race.</l>
+               <l>
+                  <note place="margin">☞</note> Thus wheel'd about, for Children making mone,</l>
+               <l>At length he Licenſe had to goe alone.</l>
+            </lg>
+            <lg n="65">
+               <head>65.</head>
+               <l>Alone, I meane, without or Men or Armes,</l>
+               <l>With Daughters two, he went to ſeek the reſt,</l>
+               <l>Praying our God them ſhield from further harmes,</l>
+               <l>For he it is by whom we muſt be bleſt.</l>
+               <l>Now after all theſe ſad and heavy Tales,</l>
+               <l>Their Veſſell ſhortly brought them to South-Wales.</l>
+            </lg>
+            <lg n="66">
+               <head>66.</head>
+               <l>Two of his Boyes he found upon that Coaſt,</l>
+               <l>A friendly<note n="*" place="margin">Capt. <hi>Weſton</hi> and his wife.</note> Couple took the third away:</l>
+               <l>He was the youngeſt whom they tendred moſt,</l>
+               <l>Not having of their owne wherewith to play:</l>
+               <l>A Lad for feature might attend a Prince,</l>
+               <l>
+                  <note place="margin">☞</note> Where he is, God knowes, wee never ſaw him ſince.</l>
+            </lg>
+            <lg n="67">
+               <head>67.</head>
+               <l>Here was he brought before the Admirall,</l>
+               <l>For that a Souldier he was deem'd to be,</l>
+               <l>And then preſented to th' Major-Generall,</l>
+               <l>A very worthy gallant man was he;</l>
+               <l>And had withall as generous a wife,</l>
+               <l>
+                  <note place="margin">☞</note> As I have ever knowne in all my life.</l>
+            </lg>
+            <lg n="68">
+               <head>68.</head>
+               <l>This gentle Lady, and with her<note n="*" place="margin">Miſtris <hi>Can<g ref="char:EOLhyphen"/>non.</hi>
+                  </note> another,</l>
+               <l>Took both his Daughters with ſuch kinde reſpect,</l>
+               <l>None could doe more, except it were a mother;</l>
+               <l>Such goodneſſe doe theſe Countrey folke affect:</l>
+               <l>If others blanch, we ſpeak what we have found,</l>
+               <l>We never ſet our feet on kinder ground.</l>
+            </lg>
+            <pb facs="tcp:179277:8"/>
+            <lg n="69">
+               <head>69.</head>
+               <l>But now into the Army he muſt goe,</l>
+               <l>For ſo he will that there commands the Seas;</l>
+               <l>Whatſoe're he thinks, 'tis bootleſſe to ſay no,</l>
+               <l>He is in hands that may doe what they pleaſe.</l>
+               <l>And now againe his heart ſtrange paſſion feeles,</l>
+               <l>Yet goe he muſt, or elſe may goe by th' heeles.</l>
+            </lg>
+            <lg n="70">
+               <head>70.</head>
+               <l>Yet ſure theſe two <note n="*" place="margin">Major Gen. <hi>Laughorne.</hi> Captaine <hi>Swanley.</hi>
+                  </note> were very worthy men,</l>
+               <l>The one by Land, the other on the Sea,</l>
+               <l>They ſoon contriv'd employment for him then,</l>
+               <l>He uſed there that time no other plea.</l>
+               <l>But when he had well look'd into the Cauſe,</l>
+               <l>He thought it hard that ſubjects ſhould give Lawes. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <lg n="71">
+               <head>71.</head>
+               <l>Things were too high for him to underſtand,</l>
+               <l>He could not ſee good reaſon for theſe broyles,</l>
+               <l>That thus infeſted this unhappy land,</l>
+               <l>And hook't us into ſuch unwelcome toyles.</l>
+               <l>Yet while he ſtayed, he did refuſe no duty,</l>
+               <l>But had no skill to plunder, or get booty. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <lg n="72">
+               <head>72.</head>
+               <l>To pay the Souldier Money there was none;</l>
+               <l>Alack poore Countrey-folke what have you done?</l>
+               <l>He thought it better farre for to be gone,</l>
+               <l>Then thus upon your ſcore ſo deep to run.</l>
+               <l>For truth to tell in briefe, by fraud or force,</l>
+               <l>So <gap reason="illegible" resp="#UOM" extent="2+ letters">
+                     <desc>••…</desc>
+                  </gap>k you neither Sheep, nor Cow, or Horſe, <note place="margin">☜</note>
+               </l>
+            </lg>
+            <lg n="73">
+               <head>73.</head>
+               <l>Thus Service done, he once more Licenſe had,</l>
+               <l>With him and his againe to croſſe the Seas;</l>
+               <l>The way by land at that time was but bad,</l>
+               <l>And they that ventur'd found but little eaſe:</l>
+               <l>By long and irkſome Sea about they came</l>
+               <l>To <hi>London,</hi> where they found untoward game.</l>
+            </lg>
+            <lg n="74">
+               <head>74.</head>
+               <l>Such way was caſt for them to ſeek Arreare,</l>
+               <l>The like I thinke was never yet invented,</l>
+               <l>It put them to ſuch trouble and ſuch feare,</l>
+               <l>Some fret and fume, ſome ſigh, and all lamented.</l>
+               <l>At length it comes from Cloak to Welch-mans Button,</l>
+               <l>But findes them neither Pottage, Beefe, or Mutton. <note place="margin">☜</note>
+               </l>
+            </lg>
+            <pb facs="tcp:179277:9"/>
+            <lg n="75">
+               <head>75.</head>
+               <l>Then back to Ireland he imployment ſought,</l>
+               <l>As was moſt proper where he loſt his Lands,</l>
+               <l>Where Wife and Children dyed, one ſiſter caught,</l>
+               <l>And cruell murdered by the Rebells hands,</l>
+               <l>
+                  <note place="margin">☞</note> Another ſtript of all he cloathes and goods,</l>
+               <l>As ſhe paſt through the Iriſh Rogges and Woods.</l>
+            </lg>
+            <lg n="76">
+               <head>76.</head>
+               <l>Some people jealous, doth not us confide,</l>
+               <l>They thinke we are not fit to ſerve their turne,</l>
+               <l>Th' our Integrity hath been often t y'd,</l>
+               <l>When Townes and Houſes 'bout our eares did burne,</l>
+               <l>
+                  <note place="margin">☞</note> Or whether it be to confound the Monarchy,</l>
+               <l>And raiſe in ſtead thereof confus'd Anarchy.</l>
+            </lg>
+            <lg n="77">
+               <head>77.</head>
+               <l>Peece of a Souldier he is from his youth,</l>
+               <l>In Low-Countries, Denmarke, and in Ireland;</l>
+               <l>Then who can him detract not ſparing truth:</l>
+               <l>None will I'me ſure but ſome helliſh Fire-brand,</l>
+               <l>That goes about to wrack both Church and State,</l>
+               <l>Confounded will they be that truth doe hate.</l>
+            </lg>
+            <lg n="78">
+               <head>☞ 78.</head>
+               <l>Yet promiſe upon promiſe he hath had,</l>
+               <l>As if ſome good to him they did intend,</l>
+               <l>But with delay enough to make one mad,</l>
+               <l>Nor can he yet procure ſucceſſefull end.</l>
+               <l>
+                  <note place="margin">☞</note> Commiſſion on Commiſſion he obtain'd,</l>
+               <l>Yet on ſuch termes, as nought by them he gain'd.</l>
+            </lg>
+            <lg n="79">
+               <head>79.</head>
+               <l>His Sonne hath in this Army ſerved truely,</l>
+               <l>In Wales and Ireland from his tender age;</l>
+               <l>His Pay from him detained is unduely,</l>
+               <l>Since he for Ireland likewiſe did engage.</l>
+               <l>Though they have waited till they pawn'd their Coat,</l>
+               <l>
+                  <note place="margin">☞</note> Hee's forc'd to goe (poore youth) with ne're a Groat.</l>
+            </lg>
+            <lg n="80">
+               <head>80.</head>
+               <l>Part of their owne yet give, if you have heart,</l>
+               <l>Himſelfe and Children left, alive too keep,</l>
+               <l>And doe it ſoon, for now it is your part</l>
+               <l>To make them ſmile that long have cauſe to weep.</l>
+               <l>Thus have you heard a ſtory of more woe,</l>
+               <l>Then that of <hi>Iuliet</hi> and <hi>Romeo.</hi>
+               </l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:179277:9"/>
+         </div>
+      </body>
+   </text>
+</TEI>
